@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'tempApp/base.html'%}
+{% load my_extras %}
+
+{% block body_block %}
+    <h1>WELCOME TO THE HOMEPAGE NIGGIE :) </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero a in eum omnis veritatis ducimus laudantium nesciunt laborum. Velit nulla possimus explicabo iste dicta, obcaecati quidem exercitationem error maxime aliquam!</p>
+
+    <h1>{{ text|cut:"hello" }}</h1>
+    <h1>{{ numbers|add:"99" }}</h1>
+{% endblock  %}
